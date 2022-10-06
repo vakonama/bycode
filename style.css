@@ -1,11 +1,31 @@
-body {
-    background-image: url(img/background.jpg);
-    background-size: 100%;
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+description {
+    visibility: hidden;
+    color: rgba(245, 245, 35, 0.0001);
+}   
+
+#desktop {
+    margin-top: -20px;
+}
+
+#tablet {
+    margin-top: -30px;
+}
+
+#phone {
+    margin-top: -45px;
+}
+
+.display1 {
+    margin-bottom: 80px;
 }
 
 .line1 {   
     height: 90px;
-    
 }
 
 #load {
@@ -30,7 +50,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poiret One', cursive;
     font-family: 'Russo One', sans-serif;
-    font-size: calc(1rem + 1.8vw);;
+    font-size: calc(1rem + 1.8vw);
     text-transform: uppercase; 
     color: #000000;
     text-shadow: 
@@ -65,7 +85,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poiret One', cursive;
     font-family: 'Russo One', sans-serif;
-    font-size: 13pt;
+    font-size: calc(0.4rem + 1vw);
     text-transform: uppercase;
 }
 
@@ -83,9 +103,9 @@ td#close {
 }
 
 #left {
-    vertical-align: top;
+    text-align: center;
+    width: 100%;
 }
-
 
 .contacts {
     margin-left: -90px;
@@ -95,6 +115,7 @@ td#close {
     text-align: right;
 }
 
+
 td#live {
     text-align: left;
     vertical-align: bottom;
@@ -103,3 +124,524 @@ td#live {
 .call {
     margin-left: 15px;
 }
+
+
+.display2 {
+    margin-bottom: 100px;
+}
+
+#menu {
+    width: 580px; 
+    position: relative;
+}
+
+.servicesmenu {
+    font-family: Russo One;
+    color: rgb(0, 0, 0, 1);
+}
+
+  .accordion-item {
+    opacity: .6;
+  }
+
+.accordion-body {
+    background: linear-gradient(to right, transparent, mistyrose),
+    url(img/monkey.jpg);
+    background-size: 120%;
+    background-repeat: no-repeat;
+}
+
+.column {
+    width: 65%;
+}
+
+
+#block-right2 {
+    padding: 7px;
+    background-color: rgb(255, 255, 255);
+    opacity: .5;
+    height: 100%;   
+    width: 230px;
+    font-family: Russo One;
+    font-size: 10pt;
+    text-align: center;
+    position: relative;
+    text-transform: uppercase;  
+}
+
+#block-right3 {
+    background-color: rgb(164, 158, 158);
+    opacity: .7;
+    height: 100%;   
+    width: 230px;
+    font-family: Russo One;
+    text-align: center;
+    position: relative;
+   
+}
+
+#bigtext {
+    margin-top: -300px;
+   width: 100%;
+    font-family: Orbitron;
+font-size: 197pt;
+text-align: center;
+z-index: -1;
+text-transform: uppercase;
+background: linear-gradient(45deg, #6d7e9a 33%, #969696 66%, #a4a5a7);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+#bigtext2 {
+    margin-top: -300px;
+   width: 100%;
+    font-family: Orbitron;
+font-size: 72pt;
+font-weight: bold;
+text-align: center;
+z-index: -2;
+text-transform: uppercase;
+background: linear-gradient(45deg, #6e6e6e 45%, #cabd5e 33%, #ffffff);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+#bigtext3 {
+    font-family: Orbitron;
+    font-size: 30pt;
+    font-weight: bold;
+    text-align: center;
+    z-index: -3;
+    margin-left: 11%;
+    margin-top: -30px;
+    background: linear-gradient(45deg, #bab6b6 33%, #ccc9c9 66%, #ffffff);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.desk_what_txt {
+    font-family: 'Jura', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poiret One', cursive;
+    font-family: 'Russo One', sans-serif;
+    font-size: calc(1rem + 1.2vw);
+    text-transform: uppercase;
+    text-shadow: 
+    2px 0 0 rgba(245, 245, 35, 0.1), 
+    4px 0 0 rgba(245, 245, 35, 0.1),
+    6px 0 0 rgba(245, 245, 35, 0.1),
+    8px 0 0 rgba(245, 245, 35, 0.1),
+    10px 0 0 rgba(245, 245, 35, 0.1),
+    12px 0 0 rgba(245, 245, 35, 0.1),
+    14px 0 0 rgba(245, 245, 35, 0.1),
+    16px 0 0 rgba(245, 245, 35, 0.1);
+}
+
+#slider {
+    background-image: url(img/cover.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 580px;
+    height: 320px;
+    text-align: center;
+    padding-top: 26px;
+    padding-bottom: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: 60px;
+}
+
+/*.d-block {
+    background-color: #000000;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+}*/
+
+.display3 {
+    margin-bottom: 60px;
+}
+
+.inmessage {
+    background-color: rgba(247, 247, 247, 0.42);
+    height: 120px;
+    width: 580px;
+}
+
+.down {
+    font-family: 'Jura', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poiret One', cursive;
+    font-family: 'Russo One', sans-serif;
+    font-size: calc(0.6rem + 1vw);
+    text-transform: uppercase; 
+    color: #000000;
+    text-shadow: 
+    2px 0 0 rgba(240, 27, 158, 0.15), 
+    4px 0 0 rgba(240, 27, 158, 0.15),
+    6px 0 0 rgba(240, 27, 158, 0.15),
+    8px 0 0 rgba(240, 27, 158, 0.15),
+    10px 0 0 rgba(240, 27, 158, 0.15),
+    12px 0 0 rgba(240, 27, 158, 0.15),
+    14px 0 0 rgba(240, 27, 158, 0.15),
+    16px 0 0 rgba(240, 27, 158, 0.15);
+}
+
+#first2, #second2 {
+    text-align: right;
+}
+
+#second2 { 
+    margin-top: -30px;
+}
+
+#third2 {
+    margin-top: -20px;
+    text-align: right;
+}
+
+#itp {
+    vertical-align: bottom;
+}
+
+.down3 {
+    font-family: 'Jura', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poiret One', cursive;
+    font-family: 'Russo One', sans-serif;
+    font-size: calc(0.8rem + 0.7vw);
+    text-transform: uppercase; 
+    color: #000000;
+    text-shadow: 
+    2px 0 0 rgba(240, 27, 158, 0.15), 
+    4px 0 0 rgba(240, 27, 158, 0.15),
+    6px 0 0 rgba(240, 27, 158, 0.15),
+    8px 0 0 rgba(240, 27, 158, 0.15),
+    10px 0 0 rgba(240, 27, 158, 0.15),
+    12px 0 0 rgba(240, 27, 158, 0.15),
+    14px 0 0 rgba(240, 27, 158, 0.15),
+    16px 0 0 rgba(240, 27, 158, 0.15);
+}
+
+
+.cash {
+    margin-top: -200px;
+    margin-left: -130px;
+}
+
+#fb {
+    margin-bottom: 60px;
+}
+
+.he {
+    text-align: right;
+}
+    
+.she {
+    text-align: left;
+}
+
+.versus {
+    width: 90%;
+    text-align: center;
+}
+
+
+    /*КНОПКИ*/
+    
+    .button-press {
+        position:relative;
+        display: inline-block; 
+        -webkit-border-radius: 10px;
+        -webkit-box-shadow: 
+            0px 3px rgba(128,128,128,1), /* gradient effects */
+            0px 4px rgba(118,118,118,1),
+            0px 5px rgba(108,108,108,1),
+            0px 6px rgba(98,98,98,1),
+            0px 7px rgba(88,88,88,1),
+            0px 8px rgba(78,78,78,1),
+            0px 14px 6px -1px rgba(128,128,128,1); /* shadow */
+        -webkit-transition: -webkit-box-shadow .1s ease-in-out;
+        margin-bottom:30px;
+    } 
+
+    .button-press span {
+        background-color: #E8E8E8;
+        background-image: 
+            /* gloss gradient */
+            -webkit-gradient(
+                linear, 
+                left bottom, 
+                left top, 
+                color-stop(50%,rgba(255,255,255,0)), 
+                color-stop(50%,rgba(255,255,255,0.3)), 
+                color-stop(100%,rgba(255,255,255,0.2))),
+            
+            /* dark outside gradient */
+            -webkit-gradient(
+                linear, 
+                left top, 
+                right top, 
+                color-stop(0%,rgba(210,210,210,0.3)), 
+                color-stop(20%,rgba(210,210,210,0)), 
+                color-stop(80%,rgba(210,210,210,0)), 
+                color-stop(100%,rgba(210,210,210,0.3))),
+            
+            /* light inner gradient */
+            -webkit-gradient(
+                linear, 
+                left top, 
+                right top, 
+                color-stop(0%,rgba(255,255,255,0)), 
+                color-stop(20%,rgba(255,255,255,0.5)), 
+                color-stop(80%,rgba(255,255,255,0.5)), 
+                color-stop(100%,rgba(255,255,255,0))),        
+            
+            /* diagonal line pattern */
+            -webkit-gradient(
+                linear, 
+                0% 100%, 
+                100% 0%, 
+                color-stop(0%,rgba(255,255,255,0)), 
+                color-stop(40%,rgba(255,255,255,0)), 
+                color-stop(40%,#D2D2D1), 
+                color-stop(60%,#D2D2D1), 
+                color-stop(60%,rgba(255,255,255,0)), 
+                color-stop(100%,rgba(255,255,255,0)));
+        
+            -webkit-box-shadow:
+                0px -1px #fff, /* top highlight */
+                0px 1px 1px #FFFFFF; /* bottom edge */
+        
+        -webkit-background-size: 100%, 100%, 100%, 4px 4px;
+        -webkit-border-radius: 10px;
+        -webkit-transition: -webkit-transform .1s ease-in-out;
+        display: inline-block;
+        padding: 10px 20px;
+        color: #3A474D;
+        text-transform: uppercase;
+        font-family: 'Jura', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Poiret One', cursive;
+        font-family: 'Russo One', sans-serif;
+        font-size: calc(0.8rem + 0.7vw);
+        text-shadow: 0px 1px #fff, 0px -1px #262F33;
+    }
+            .button-press span:hover {
+                color: #d81d90;
+                text-shadow: 0px -1px #a5db11;
+                cursor: pointer;
+            }
+            .button-press:active {
+                -webkit-box-shadow: 
+                    0px 3px rgba(128,128,128,1),
+                    0px 4px rgba(118,118,118,1),
+                    0px 5px rgba(108,108,108,1),
+                    0px 6px rgba(98,98,98,1),
+                    0px 7px rgba(88,88,88,1),
+                    0px 8px rgba(78,78,78,1),
+                    0px 10px 2px 0px rgba(128,128,128,.6); /* shadow */
+            }
+            .button-press:active span{
+                -webkit-transform: translate(0, 5px); /* depth of button press */
+            }
+
+    
+      #finishtext {
+        text-align: center;
+        width: 100%;
+        font-size: calc(0.8rem + 0.7vw);
+      }
+    
+    
+    
+        #line {
+            width: 100% ;
+            height: 35%;
+            border-radius: 50%;
+            color: white;
+       
+        }
+    
+        .finish {
+            font-family: Russo One;
+            font-style: black;
+            font-size: 9pt;
+            margin-left: 7%;
+        }
+    
+    #logoimage {
+        margin-top: 3%;
+    }
+
+#footer {
+    height: 100px;
+    margin-top: min(70px, 50vw);
+}
+
+#adress_footer {
+    font-size: calc(0.4rem + 0.4vw);
+    padding-left: 5px;
+    width: 100%;
+    }
+    
+    #sec_bigtext {
+
+    margin-top: min(-250px, -30vw);
+    width: 100%;
+    font-family: Orbitron;
+    font-size: calc(3rem + 11vw);
+    text-align: center;
+    z-index: -1;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #d65c8b79 33%, #63a2bb80 66%, #a4a5a7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+    
+
+.box {
+    margin-bottom: 30px;
+}
+
+.box_1 {
+    text-align: right;
+}
+
+.arrow_down {
+    padding-top: 50px;
+}
+
+#logo_phone {
+    padding: 10px;
+}
+
+
+.heading_phone {
+    font-family: 'Jura', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poiret One', cursive;
+    font-family: 'Russo One', sans-serif;
+    font-size: calc(0.6rem + 3.4vw);
+    text-transform: uppercase; 
+    color: #000000;
+    text-shadow: 
+    2px 0 0 rgba(245, 245, 35, 0.1), 
+    4px 0 0 rgba(245, 245, 35, 0.1),
+    6px 0 0 rgba(245, 245, 35, 0.1),
+    8px 0 0 rgba(245, 245, 35, 0.1),
+    10px 0 0 rgba(245, 245, 35, 0.1),
+    12px 0 0 rgba(245, 245, 35, 0.1),
+    14px 0 0 rgba(245, 245, 35, 0.1),
+    16px 0 0 rgba(245, 245, 35, 0.1);
+
+}
+
+
+
+.gifs_phone {
+    width: 100%;
+}
+
+.record_phone {
+    width: 95%;
+    
+}
+
+.letter_phone {
+    font-family: 'Jura', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poiret One', cursive;
+    font-family: 'Russo One', sans-serif;
+    font-size: 6pt;
+    text-transform: uppercase;
+}
+
+#text_phone {
+    text-align: justify;
+}
+
+td#close_phone {
+    text-align: right;
+}
+
+#menu_phone {
+    margin-bottom: 30px;
+}
+
+
+#accordion-body_phone {
+    background: linear-gradient(to right, transparent, mistyrose),
+    url(img/monkey.jpg);
+    background-size: 130%;
+    background-repeat: no-repeat;
+}
+
+.what {
+    text-align: center;
+}
+
+.what_txt {
+    font-family: 'Jura', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poiret One', cursive;
+    font-family: 'Russo One', sans-serif;
+    font-size: calc(0.6rem + 3.4vw);
+    text-transform: uppercase;
+}
+
+.what_txt2 {
+    font-family: 'Jura', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poiret One', cursive;
+    font-family: 'Russo One', sans-serif;
+    font-size: calc(0.6rem + 3.4vw);
+    text-transform: uppercase;
+    margin-bottom: 80%;
+}
+
+.sitecost_phone {
+    margin-bottom: 15px;
+}
+
+.some_text {
+    background-color: rgba(247, 247, 247, 0.42);
+    width: 100%;
+    font-family: 'Jura', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poiret One', cursive;
+    font-family: 'Russo One', sans-serif;
+    font-size: calc(0.5rem + 0.9vw);
+    text-transform: uppercase;
+    text-align: left;
+    padding: 5px;
+}
+
+#slider_phone {
+    margin-bottom: 30px;
+}
+
+
+
+@media (min-width: 0px) and (max-width: 520px) {
+    #desktop, #tablet, #adress_footer {
+      visibility: hidden;
+      display: none;
+    }
+  }
+
+@media (min-width: 521px) and (max-width: 1200px) {
+    #desktop, #phone {
+      visibility: hidden;
+      display: none;
+    }
+  }
+
+@media (min-width: 1200px) {
+    #phone, #tablet {
+      visibility: hidden;
+      display: none;
+    }
+  }
